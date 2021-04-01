@@ -19,7 +19,7 @@ servers:
   lgw:
     address: azisaba-lgw:25565
   life:
-    address: 192.168.3.208:49999
+    address: 192.168.100.208:49999
   sclat:
     address: azisaba-sclat:25565
   sclatsv1:
@@ -53,37 +53,37 @@ servers:
 
   # 鯖8
   parkour:
-    address: 192.168.3.208:50001
+    address: 192.168.100.208:50001
   event:
-    address: 192.168.3.208:50002
+    address: 192.168.100.208:50002
   rzh:
-    address: 192.168.3.208:50003
+    address: 192.168.100.208:50003
   pvp:
-    address: 192.168.3.208:50004
+    address: 192.168.100.208:50004
   chibi:
-    address: 192.168.3.208:50005
+    address: 192.168.100.208:50005
   afk:
-    address: 192.168.3.208:50006
+    address: 192.168.100.208:50006
   fsw:
-    address: 192.168.3.208:50007
+    address: 192.168.100.208:50007
   lgwf:
-    address: 192.168.3.208:50008
+    address: 192.168.100.208:50008
   coretol:
-    address: 192.168.3.208:50009
+    address: 192.168.100.208:50009
   mksrv:
-    address: 192.168.3.208:50010
+    address: 192.168.100.208:50010
   lifebuild:
-    address: 192.168.3.208:50011
+    address: 192.168.100.208:50011
   mts:
-    address: 192.168.3.208:50012
+    address: 192.168.100.208:50012
   conquest:
-    address: 192.168.3.208:50013
+    address: 192.168.100.208:50013
   rms:
-    address: 192.168.3.208:50014
+    address: 192.168.100.208:50014
 
   casino:
-    address: 192.168.3.101:25565
+    address: 192.168.100.101:25565
   hh:
-    address: 192.168.3.101:25566
+    address: 192.168.100.101:25566
   debug:
-    address: 192.168.3.104:25565
+    address: 192.168.100.104:25565
