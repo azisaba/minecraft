@@ -82,6 +82,7 @@ services:
     volumes:
       - ./save/lobby/world/playerdata:/app/world/playerdata
       - ./save/lobby/lobby:/app/lobby
+      - ./save/lobby/WorldGuard:/app/plugins/WorldGuard
   azisaba-lgw:
     <<: *legacy
     image: openjdk:8
