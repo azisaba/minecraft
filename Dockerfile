@@ -65,7 +65,7 @@ RUN find . -type f -iname '*.properties' > prop.txt
 
 WORKDIR /build
 
-RUN parallel -a /parts/yaml.txt -v 'yq m -x {} /parts/{} | sponge {}'
+RUN parallel -a /parts/yaml.txt -v 'if [ -e {} ]; then yq eval-all --inplace "select(fileIndex == 0) * select(fileIndex == 1)" {} /parts/{}; else cp /parts/{} {}; fi'
 RUN parallel -a /parts/prop.txt -v 'awk -F = "!a[\$1]++" /parts/{} {} | sponge {}'
 
 FROM base
