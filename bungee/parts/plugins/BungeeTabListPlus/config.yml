@@ -1,2 +1,4 @@
 pingDelay: 1
 time_zone: Asia/Tokyo
+excludeServers:
+- event
