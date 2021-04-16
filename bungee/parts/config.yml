@@ -50,6 +50,12 @@ servers:
     address: azisaba-sclattutorial2:25565
   sclattutorial3:
     address: azisaba-sclattutorial3:25565
+  builders:
+    address: azisaba-builders-lobby:25565
+  builders12:
+    address: azisaba-builders-12:25565
+  builders16:
+    address: azisaba-builders-16:25565
 
   # 鯖8
   parkour:
