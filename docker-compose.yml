@@ -69,6 +69,8 @@ services:
       - 25565:25577
     depends_on:
       - azisaba-mariadb
+    volumes:
+      - ./save/bungee/BotSentry:/app/plugins/BotSentry
   azisaba-lobby:
     <<: *global
     build:
