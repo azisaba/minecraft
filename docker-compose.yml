@@ -218,6 +218,6 @@ services:
       - azisaba-mariadb
 
 networks:
-  saba7-network:
+  minecraft_network:
     external: true
       
