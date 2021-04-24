@@ -66,7 +66,7 @@ servers:
     address: 192.168.100.208:50002
   rzh:
     address: 192.168.100.208:50003
-  pvp:
+  asterpvp:
     address: 192.168.100.208:50004
   chibi:
     address: 192.168.100.208:50005
