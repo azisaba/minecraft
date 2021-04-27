@@ -214,3 +214,19 @@ services:
     command: java -jar paper-1.14.4.jar
     depends_on:
       - azisaba-mariadb
+  azisaba-builders-lobby:
+    <<: *legacy
+    image: openjdk:8
+    volumes:
+      - /srv/builders:/legacyapp
+    command: java -jar paper-1.12.2.jar
+    depends_on:
+      - azisaba-mariadb
+  azisaba-builders-12:
+    <<: *legacy
+    image: openjdk:8
+    volumes:
+      - /srv/builders12:/legacyapp
+    command: java -jar paper-1.12.2.jar
+    depends_on:
+      - azisaba-mariadb
