@@ -6,6 +6,9 @@ x-global: &global
   environment:
     TZ: Asia/Tokyo # タイムゾーンを日本時間にする
   stop_grace_period: 1m # KILLシグナルが送信されるまでの期間を1分に伸ばしてプラグインなどのデータを安全に保存する
+  networks:
+    - minecraft_network
+   - default
 
 # 廃止予定
 x-legacy: &legacy
@@ -237,4 +240,6 @@ services:
       - /srv/jg24:/legacyapp
     command: java -jar paper-1.16.5.jar 
 
-      
+networks:
+  minecraft_network:
+    external: true
