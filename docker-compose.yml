@@ -60,7 +60,7 @@ services:
       context: bungee
       dockerfile: ../Dockerfile
       args:
-        SOFTWARE_URL: https://papermc.io/api/v1/waterfall/1.16/403/download
+        SOFTWARE_URL: https://papermc.io/api/v1/waterfall/1.16/414/download
         SOFTWARE_PORT: 25577
         SOFTWARE_STOP_COMMAND: end
         JAVA_VERSION: 15
