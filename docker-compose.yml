@@ -243,3 +243,9 @@ services:
     volumes:
       - /srv/jg24:/legacyapp
     command: java -jar paper-1.16.5.jar
+  azisaba-afk:
+    <<: *legacy
+    image: openjdk:8
+    volumes:
+      - /srv/afk:/legacyapp
+    command: java -jar paper-1.12.2.jar
