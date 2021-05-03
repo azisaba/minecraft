@@ -78,7 +78,7 @@ servers:
     address: 192.168.100.208:50008
   coretol:
     address: 192.168.100.208:50009
-  mksrv:
+  tsl:
     address: 192.168.100.208:50010
   lifebuild:
     address: 192.168.100.208:50011
@@ -92,14 +92,20 @@ servers:
     address: 192.168.100.208:50015
   mkna:
     address: 192.168.100.208:50016
-  coretol1sv1:
-    address: 192.168.100.208:50017
-  coretol1sv2:
-    address: 192.168.100.208:50018
-  coretol1sv3:
-    address: 192.168.100.208:50019
   coretol1build:
     address: 192.168.100.208:50020
+  coretol1sv1:
+    address: 192.168.100.208:50021
+  coretol1sv2:
+    address: 192.168.100.208:50022
+  coretol1sv3:
+    address: 192.168.100.208:50023
+  coretol1sv4:
+    address: 192.168.100.208:50024
+  coretol1sv5:
+    address: 192.168.100.208:50025
+  coretol1sv6:
+    address: 192.168.100.208:50026
 
   casino:
     address: 192.168.100.101:25565
