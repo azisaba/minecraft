@@ -92,6 +92,14 @@ servers:
     address: 192.168.100.208:50015
   mkna:
     address: 192.168.100.208:50016
+  coretol1sv1:
+    address: 192.168.100.208:50017
+  coretol1sv2:
+    address: 192.168.100.208:50018
+  coretol1sv3:
+    address: 192.168.100.208:50019
+  coretol1build:
+    address: 192.168.100.208:50020
 
   casino:
     address: 192.168.100.101:25565
