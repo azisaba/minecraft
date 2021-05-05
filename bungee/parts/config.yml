@@ -72,8 +72,6 @@ servers:
     address: 192.168.100.208:50004
   chibi:
     address: 192.168.100.208:50005
-  afk:
-    address: 192.168.100.208:50006
   fsw:
     address: 192.168.100.208:50007
   lgwf:
