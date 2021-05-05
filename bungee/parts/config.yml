@@ -58,6 +58,8 @@ servers:
     address: azisaba-builders-15:25565
   builders16:
     address: azisaba-builders-16:25565
+  afk:
+    address: azisaba-afk:25565
 
   # 鯖8
   parkour:
