@@ -50,14 +50,6 @@ servers:
     address: azisaba-sclattutorial2:25565
   sclattutorial3:
     address: azisaba-sclattutorial3:25565
-  builders:
-    address: azisaba-builders-lobby:25565
-  builders12:
-    address: azisaba-builders-12:25565
-  builders15:
-    address: azisaba-builders-15:25565
-  builders16:
-    address: azisaba-builders-16:25565
   afk:
     address: azisaba-afk:25565
 
@@ -106,6 +98,14 @@ servers:
     address: 192.168.100.208:50025
   coretol1sv6:
     address: 192.168.100.208:50026
+  builders:
+    address: 192.168.100.208:50027
+  builders12:
+    address: 192.168.100.208:50028
+  builders15:
+    address: 192.168.100.208:50029
+  builders16:
+    address: 192.168.100.208:50030
 
   casino:
     address: 192.168.100.101:25565

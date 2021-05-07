@@ -214,36 +214,6 @@ services:
     command: java -jar paper-1.14.4.jar
     depends_on:
       - azisaba-mariadb
-  azisaba-builders-lobby:
-    <<: *legacy
-    image: itzg/minecraft-server:java8
-    working_dir: /data
-    environment:
-      EULA: "true"
-      TYPE: PAPER
-      VERSION: 1.12.2
-      # needed for Paper versions before 1.14
-      CONSOLE: "false"
-      USE_AIKAR_FLAGS: "true"
-    volumes:
-      - /srv/builders:/data
-    depends_on:
-      - azisaba-mariadb
-  azisaba-builders-12:
-    <<: *legacy
-    image: itzg/minecraft-server:java8
-    working_dir: /data
-    environment:
-      EULA: "true"
-      TYPE: PAPER
-      VERSION: 1.12.2
-      # needed for Paper versions before 1.14
-      CONSOLE: "false"
-      USE_AIKAR_FLAGS: "true"
-    volumes:
-      - /srv/builders12:/data
-    depends_on:
-      - azisaba-mariadb
   azisabajg-24-:
     <<: *legacy
     image: openjdk:8
