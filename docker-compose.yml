@@ -60,7 +60,7 @@ services:
       context: bungee
       dockerfile: ../Dockerfile
       args:
-        SOFTWARE_URL: https://papermc.io/api/v1/waterfall/1.16/414/download
+        SOFTWARE_URL: https://papermc.io/api/v1/waterfall/1.16/415/download
         SOFTWARE_PORT: 25577
         SOFTWARE_STOP_COMMAND: end
         JAVA_VERSION: 15
@@ -214,12 +214,6 @@ services:
     command: java -jar paper-1.14.4.jar
     depends_on:
       - azisaba-mariadb
-  azisabajg-24-:
-    <<: *legacy
-    image: openjdk:8
-    volumes:
-      - /srv/jg24:/legacyapp
-    command: java -jar paper-1.16.5.jar
   azisaba-afk:
     <<: *legacy
     image: openjdk:8
